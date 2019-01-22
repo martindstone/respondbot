@@ -2,7 +2,7 @@
 
 Respondbot can automatically acknowledge and resolve incidents in your PagerDuty domain after a period of time that is randomly chosen from a range you specify. It is designed to run continuously and poll PagerDuty every 30 seconds.
 
-Notes:
+## Notes:
 * It will always acknowledge and resolve as the currently assigned user
 * Validation and error handling is largely TBD
 * "acknowledge" and "resolve" are currently both required (you can't just put one and not the other in a service)
